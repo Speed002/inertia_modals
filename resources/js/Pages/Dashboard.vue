@@ -13,8 +13,8 @@ import { Head, Link } from '@inertiajs/vue3';
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                    <Link :href="route('modals.example')" class="p-6 text-gray-900">Open Modal</Link>
+                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6">
+                    <Link :href="route('modals.example')" class="text-gray-900">Open Modal</Link>
                 </div>
             </div>
         </div>
